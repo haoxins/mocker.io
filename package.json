@@ -1,0 +1,34 @@
+{
+  "name": "mocker.io",
+  "version": "0.0.1",
+  "description": "smart web mocker",
+  "main": "app.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "haoxins/mocker.io",
+  "keywords": [
+    "websocket",
+    "mocker",
+    "mock",
+    "http",
+    "web",
+    "ws"
+  ],
+  "files": [
+    "app.js",
+    "bin",
+    "lib"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "dependencies": {
+    "requisition": "1",
+    "rethinkdbdash": "^2.3.14",
+    "ws": "1"
+  },
+  "devDependencies": {
+    "ava": "0",
+    "nyc": "6"
+  }
+}
